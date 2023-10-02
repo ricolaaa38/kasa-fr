@@ -1,0 +1,57 @@
+.card-home {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  row-gap: 50px;
+  padding: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: #f6f6f6;
+  border-radius: 30px;
+}
+
+.div-link-card {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+  box-sizing: border-box;
+  box-shadow: inset 2em 2em;
+}
+.div-link-card h2 {
+  position: absolute;
+  color: white;
+  left: 0;
+  bottom: 0;
+}
+.div-link-card img {
+  width: 100%;
+  height: 350px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.img-overlay {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+.img-overlay::after {
+  content: "";
+  position: absolute;
+  border-radius: 20px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, white, black);
+  opacity: 0.3;
+}
+
+.kasa-card {
+  position: relative;
+  box-sizing: border-box;
+}/*# sourceMappingURL=Card.css.map */
