@@ -1,0 +1,52 @@
+.accordion {
+  max-width: 80%;
+  margin: 2rem auto;
+}
+
+.accordion-item {
+  margin: 25px;
+}
+
+.accordion-title {
+  background-color: #ff6060;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 10px;
+  padding: 1em;
+  cursor: pointer;
+}
+.accordion-title h2 {
+  margin: 0;
+  color: white;
+}
+
+.accordion-content {
+  height: 10px;
+  background-color: #f6f6f6;
+  color: #ff6060;
+  font-size: 18px;
+  padding: 0 18px;
+  border-radius: 10px;
+  opacity: 0;
+  transition: height 0.3s linear, opacity 0.1s ease-in, padding 0.2s ease-in;
+}
+
+.animated {
+  height: auto;
+  opacity: 1;
+  padding: 18px;
+  transition: height 0.3s ease-in, opacity 0.5s ease-in, padding 0.2s ease-in;
+}
+
+.chevron-nonActive {
+  width: 20px;
+  transform: rotate(180deg);
+  transition: transform 0.3s ease-in;
+}
+
+.chevron-active {
+  width: 20px;
+  transform: rotate(0deg);
+  transition: transform 0.3s ease-in-out;
+}/*# sourceMappingURL=About.css.map */
