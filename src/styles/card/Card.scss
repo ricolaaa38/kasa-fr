@@ -3,7 +3,7 @@
 @mixin widHeiRad {
   width: 100%;
   height: 350px;
-  border-radius: 20px;
+  border-radius: 15px;
 }
 
 .card-home {
@@ -22,9 +22,9 @@
 
 .div-link-card {
   @include widHeiRad();
+  border-radius: 18px;
   box-sizing: border-box;
   box-shadow: inset 2em 2em;
-
   h2 {
     position: absolute;
     color: $secondary-color;
@@ -34,6 +34,9 @@
   img {
     @include widHeiRad();
     object-fit: cover;
+  }
+  &:hover {
+    box-shadow: 3px 3px 10px 10px rgb(218, 216, 216);
   }
 }
 
@@ -45,7 +48,7 @@
   &::after {
     content: '';
     position: absolute;
-    border-radius: 20px;
+    border-radius: 15px;
     top: 0;
     left: 0;
     width: 100%;

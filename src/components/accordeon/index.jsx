@@ -27,27 +27,3 @@ const Accordion = ({ title, content }) => {
 }
 
 export default Accordion
-
-// {
-//   /* <div className="wrapper">
-//         <div className="collapse-component">
-//           {AboutArray.map((aPropos, index) => (
-//             <div className="accordion">
-//               <div className="accordion-visible" onClick={toggleState}>
-//                 <h2>{aPropos.title}</h2>
-//                 <img
-//                   className={toggle && 'active'}
-//                   src={Chevron}
-//                   alt="chevron"
-//                 />
-//               </div>
-//               <div
-//                 className={
-//                   toggle ? 'accordion-toggle animated' : 'accordion-toggle'
-//                 }
-//                 style={{ height: toggle ? `${heightEl}` : '0px' }}
-//                 ref={refHeight}
-//               >
-//                 <p aria-hidden={toggle ? 'true' : 'false'}>{aPropos.text}</p>
-//               </div> */
-// }
