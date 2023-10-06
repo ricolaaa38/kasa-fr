@@ -1,0 +1,16 @@
+.infos-host {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #ff6060;
+}
+.infos-host img {
+  border-radius: 100%;
+  width: 80%;
+  margin-left: 5px;
+}
+.infos-host h3 {
+  margin-right: 5px;
+  text-align: right;
+}/*# sourceMappingURL=Host.css.map */

@@ -1,0 +1,16 @@
+@import '../color/Color.scss';
+
+.tags-zone {
+  width: 100%;
+  margin: 15px 0px;
+}
+
+.tags-btn {
+  background-color: $primary-color;
+  color: $secondary-color;
+  border: none;
+  border-radius: 10px;
+  padding: 5px 0;
+  margin-right: 15px;
+  width: 15%;
+}

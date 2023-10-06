@@ -1,0 +1,18 @@
+@import '../color/Color.scss';
+
+.infos-host {
+  width: 15%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: $primary-color;
+  img {
+    border-radius: 100%;
+    width: 80%;
+    margin-left: 5px;
+  }
+  h3 {
+    margin-right: 5px;
+    text-align: right;
+  }
+}

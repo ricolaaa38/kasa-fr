@@ -1,4 +1,12 @@
 @import '../color/Color.scss';
+@import url('https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@300&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
 
 .body-general {
   background-color: $secondary-color;
