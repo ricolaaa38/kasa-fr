@@ -4,6 +4,7 @@ import { Navigate } from 'react-router-dom'
 import Carrousel from '../../components/pageLogement/Carrousel'
 import '../../styles/articles/pageLogement.css'
 import Accordion from '../../components/accordeon'
+import Equipments from '../../components/pageLogement/Equipments'
 import Tags from '../../components/pageLogement/Tags'
 import Host from '../../components/pageLogement/Host.jsx'
 import Rating from '../../components/pageLogement/Rating'
@@ -44,16 +45,15 @@ function LogementPage() {
         </div>
 
         <div className="accordion-pageLogement">
-          <Accordion
-            title="Description"
-            content={pageLogement.description}
-            className="description"
-          />
-          <Accordion
-            title="Equipements"
-            content={pageLogement.equipments}
-            className="equipements"
-          />
+          <div className="accordion-description">
+            <Accordion title="Description" content={pageLogement.description} />
+          </div>
+          <div className="accordion-equipments">
+            <Accordion
+              title="Equipements"
+              content={<Equipments content={pageLogement.equipments} />}
+            />
+          </div>
         </div>
       </div>
     )

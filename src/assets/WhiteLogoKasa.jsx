@@ -1,8 +1,8 @@
 function WhiteLogoKasa() {
   return (
     <svg
-      width="211"
-      height="68"
+      width="100%"
+      height="50"
       viewBox="0 0 211 68"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

@@ -1,0 +1,8 @@
+.stars {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stars img {
+  margin-left: 10px;
+}/*# sourceMappingURL=Stars.css.map */

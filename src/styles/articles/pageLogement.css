@@ -6,15 +6,9 @@
 
 .accordion-pageLogement {
   width: 100%;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: flex-start;
-}
-
-.description,
-.equipements {
-  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
 }
 
 .kasa-logement-host {
@@ -30,4 +24,9 @@
 .localisation {
   color: #ff6060;
   margin-bottom: 15px;
+}
+
+.tags-rating {
+  display: flex;
+  justify-content: space-between;
 }/*# sourceMappingURL=pageLogement.css.map */

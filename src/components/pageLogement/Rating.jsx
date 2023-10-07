@@ -1,5 +1,6 @@
 import GreyStar from '../../assets/Vector.svg'
 import RedStar from '../../assets/VectorRed.svg'
+import '../../styles/articles/Stars.css'
 
 function Rating(rating) {
   let levelRating = []
@@ -14,7 +15,7 @@ function Rating(rating) {
   }
 
   return (
-    <div>
+    <div className="stars">
       {levelRating.map((_, index) => (
         <img key={index} src={RedStar} alt="star" />
       ))}
