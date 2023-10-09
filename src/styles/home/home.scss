@@ -36,3 +36,24 @@
     opacity: 0.2;
   }
 }
+
+@media (max-width: 768px) {
+  .home-kasa {
+    height: 110px;
+    border-radius: 15px;
+    h1 {
+      font-size: 24px;
+      font-weight: 500;
+      left: 10%;
+    }
+  }
+  .home-kasa-img {
+    img {
+      border-radius: 15px;
+    }
+
+    &::after {
+      border-radius: 15px;
+    }
+  }
+}

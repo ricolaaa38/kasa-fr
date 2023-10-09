@@ -58,4 +58,19 @@
 .kasa-card {
   position: relative;
   box-sizing: border-box;
+}
+
+@media (max-width: 768px) {
+  .card-home {
+    margin: 25px 0;
+    background-color: white;
+    border-radius: 15px;
+    grid-template-columns: 1fr;
+    padding: 0;
+    row-gap: 25px;
+  }
+  .card-home h2 {
+    font-size: 18px;
+    font-weight: 500;
+  }
 }/*# sourceMappingURL=Card.css.map */
