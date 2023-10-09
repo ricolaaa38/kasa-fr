@@ -1,5 +1,3 @@
-import Accordion from '../accordeon'
-
 function Equipments({ title, content }) {
   const listEquipments = []
 

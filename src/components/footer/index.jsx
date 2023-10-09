@@ -6,10 +6,8 @@ function Footer() {
     <footer className="kasa-footer">
       <div className="logo-mention">
         <WhiteLogoKasa />
-        <div className="mention-leg">
-          <p>© 2020 Kasa.</p>
-          <p>All rights reserved</p>
-        </div>
+
+        <p>© 2020 Kasa. All rights reserved</p>
       </div>
     </footer>
   )

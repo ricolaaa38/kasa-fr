@@ -17,10 +17,10 @@ const Accordion = ({ title, content }) => {
       </div>
       <div
         className={
-          isActive ? 'accordion-content animated' : 'accordion-content'
+          isActive ? 'accordion-content animation' : 'accordion-content'
         }
       >
-        {content}
+        <span className="contenu-accordeon">{content}</span>
       </div>
     </div>
   )

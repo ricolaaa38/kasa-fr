@@ -8,14 +8,23 @@
   border-radius: 30px;
   position: relative;
 }
-.home-kasa img {
+.home-kasa h1 {
+  position: absolute;
+  font-size: 3em;
+}
+
+.home-kasa-img {
+  height: 100%;
+  width: 100%;
+}
+.home-kasa-img img {
   height: 100%;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
   border-radius: 30px;
 }
-.home-kasa::after {
+.home-kasa-img::after {
   content: "";
   position: absolute;
   border-radius: 30px;
@@ -25,8 +34,4 @@
   height: 100%;
   background-image: linear-gradient(to bottom, black, black);
   opacity: 0.2;
-}
-.home-kasa h1 {
-  position: absolute;
-  font-size: 3em;
 }/*# sourceMappingURL=home.css.map */

@@ -5,6 +5,8 @@
 
 .accordion-item {
   margin: 25px 0;
+  background-color: #f6f6f6;
+  border-radius: 10px;
 }
 
 .accordion-title {
@@ -22,21 +24,18 @@
 }
 
 .accordion-content {
-  height: 10px;
-  background-color: #f6f6f6;
   color: #ff6060;
-  font-size: 18px;
+  max-height: 0;
+  font-size: 20px;
   padding: 0 18px;
-  border-radius: 10px;
-  opacity: 0;
-  transition: height 0.3s linear, opacity 0.1s ease-in, padding 0.2s ease-in;
+  overflow: hidden;
+  border-radius: 0 0 10px 10px;
+  transition: all 0.3s ease;
 }
 
-.animated {
-  height: auto;
-  opacity: 1;
+.animation {
+  max-height: 200px;
   padding: 18px;
-  transition: height 0.3s ease-in, opacity 0.5s ease-in, padding 0.2s ease-in;
 }
 
 .chevron-nonActive {

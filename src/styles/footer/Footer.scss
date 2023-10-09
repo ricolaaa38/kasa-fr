@@ -10,6 +10,9 @@
   position: relative;
   bottom: 0;
   left: 0;
+  p {
+    margin-top: 25px;
+  }
 }
 
 .logo-mention {
@@ -21,9 +24,13 @@
   box-sizing: border-box;
 }
 
-.mention-leg {
-  display: flex;
-  justify-content: center;
-  gap: 5px;
-  margin-top: 25px;
+@media (max-width: 768px) {
+  .kasa-footer {
+    p {
+      text-align: center;
+    }
+  }
+  .logo-mention {
+    width: 50%;
+  }
 }

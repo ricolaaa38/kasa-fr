@@ -7,7 +7,9 @@ function About() {
   return (
     <div>
       <div className="home-kasa">
-        <img src={ImageAbout} alt="mountain" />
+        <div className="home-kasa-img">
+          <img src={ImageAbout} alt="mountain" />
+        </div>
       </div>
       <div className="accordion">
         {accordionData.map(({ title, content, index }) => (

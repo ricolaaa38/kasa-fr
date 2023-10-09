@@ -8,7 +8,9 @@ function Home() {
     <main>
       <div>
         <div className="home-kasa">
-          <img src={ImageAccueil} alt="rivage" />
+          <div className="home-kasa-img">
+            <img src={ImageAccueil} alt="rivage" />
+          </div>
           <h1>Chez vous, partout et ailleurs</h1>
         </div>
         <div className="card-home">

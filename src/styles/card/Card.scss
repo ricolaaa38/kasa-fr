@@ -28,8 +28,8 @@
   h2 {
     position: absolute;
     color: $secondary-color;
-    left: 0;
-    bottom: 0;
+    left: 10px;
+    bottom: 10px;
   }
   img {
     @include widHeiRad();
