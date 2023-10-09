@@ -13,13 +13,21 @@
   gap: 50px;
 }
 
+.presentation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 .kasa-logement-host {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
   margin-top: 25px;
   h1 {
     color: $primary-color;
+    margin-bottom: 5px;
   }
 }
 
@@ -28,7 +36,38 @@
   margin-bottom: 15px;
 }
 
-.tags-rating {
+.host-rating {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 25px;
+}
+
+@media (max-width: 768px) {
+  .presentation {
+    flex-direction: column;
+  }
+  .kasa-logement-host {
+    h1 {
+      font-size: 18px;
+    }
+    h3 {
+      font-size: 14px;
+      margin-top: 5px;
+      margin-bottom: 0;
+    }
+  }
+  .host-rating {
+    margin-top: 25px;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .accordion-pageLogement {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
 }

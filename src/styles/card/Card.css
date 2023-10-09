@@ -73,4 +73,13 @@
     font-size: 18px;
     font-weight: 500;
   }
+  .div-link-card {
+    height: 300px;
+  }
+  .div-link-card img {
+    height: 300px;
+  }
+  .img-overlay {
+    height: 300px;
+  }
 }/*# sourceMappingURL=Card.css.map */

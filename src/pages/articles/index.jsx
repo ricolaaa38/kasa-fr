@@ -31,17 +31,20 @@ function LogementPage() {
     return (
       <div className="body-logement">
         <Carrousel pictures={pageLogement.pictures} />
-        <div className="kasa-logement-host">
-          <h1>{pageLogement.title}</h1>
-          <Host
-            name={pageLogement.host.name}
-            picture={pageLogement.host.picture}
-          />
-        </div>
-        <h3 className="localisation">{pageLogement.location}</h3>
-        <div className="tags-rating">
-          <Tags tags={pageLogement.tags} />
-          <Rating rating={pageLogement.rating} />
+        <div className="presentation">
+          <div className="kasa-logement-host">
+            <h1>{pageLogement.title}</h1>
+            <h3 className="localisation">{pageLogement.location}</h3>
+            <Tags tags={pageLogement.tags} />
+          </div>
+
+          <div className="host-rating">
+            <Host
+              name={pageLogement.host.name}
+              picture={pageLogement.host.picture}
+            />
+            <Rating rating={pageLogement.rating} />
+          </div>
         </div>
 
         <div className="accordion-pageLogement">

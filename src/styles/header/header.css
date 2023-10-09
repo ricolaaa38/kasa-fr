@@ -19,8 +19,8 @@
 
 @media (max-width: 768px) {
   .kasa-header {
-    margin: 15px 20px;
-    padding: 0;
+    margin: 0 20px;
+    padding: 10px 0 0 0;
   }
   .kasa-header svg {
     width: 145px;

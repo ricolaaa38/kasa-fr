@@ -6,6 +6,10 @@
   font-family: "Montserrat", sans-serif;
 }
 
+#root {
+  background-color: white;
+}
+
 .body-general {
   background-color: white;
   margin: 25px 100px;

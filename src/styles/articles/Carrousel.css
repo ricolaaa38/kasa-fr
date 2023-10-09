@@ -64,4 +64,14 @@
 
 .indicator-inactive {
   background-color: grey;
+}
+
+@media (max-width: 768px) {
+  .carrousel {
+    height: 250px;
+  }
+  .arrow {
+    width: 2rem;
+    height: 2rem;
+  }
 }/*# sourceMappingURL=Carrousel.css.map */

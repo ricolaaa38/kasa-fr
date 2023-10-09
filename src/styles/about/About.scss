@@ -36,7 +36,7 @@
 }
 
 .animation {
-  max-height: 200px;
+  max-height: 300px;
   padding: 18px;
 }
 
@@ -49,4 +49,20 @@
   width: 20px;
   transform: rotate(0deg);
   transition: transform 0.3s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .accordion {
+    margin: 25px 0;
+    max-width: 100%;
+  }
+  .accordion-title {
+    padding: 0.6em;
+    h2 {
+      font-size: 16px;
+    }
+  }
+  .accordion-content {
+    font-size: 15px;
+  }
 }

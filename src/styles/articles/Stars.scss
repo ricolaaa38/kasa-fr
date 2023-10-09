@@ -2,7 +2,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  img {
-    margin-left: 10px;
+  gap: 10px;
+}
+
+@media (max-width: 768px) {
+  .stars {
+    gap: 5px;
+    img {
+      width: 15px;
+      height: 15px;
+    }
   }
 }
