@@ -20,6 +20,7 @@ function Carrousel({ pictures }) {
         alt="chevron-gauche"
         className="arrow arrow-left"
         onClick={prevSlide}
+        style={pictures.length <= 1 ? { display: 'none' } : {}}
       />
       {pictures.map((element, index) => (
         <img
@@ -34,6 +35,7 @@ function Carrousel({ pictures }) {
         alt="chevron-droit"
         className="arrow arrow-right"
         onClick={nextSlide}
+        style={pictures.length <= 1 ? { display: 'none' } : {}}
       />
       <span className="indicators">
         {pictures.map((_, index) => (
@@ -43,6 +45,7 @@ function Carrousel({ pictures }) {
             className={
               slide === index ? 'indicator' : 'indicator indicator-inactive'
             }
+            style={pictures.length <= 1 ? { display: 'none' } : {}}
           ></button>
         ))}
       </span>
