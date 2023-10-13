@@ -12,7 +12,7 @@ export const accordionData = [
   {
     title: 'Service',
     content:
-      "Nos équipes se tiennent à votre disposiotion pour vous fournir une éxperience parfaite. N'hésiter pas à nous contacter si vous avez la moindre question",
+      "Nos équipes se tiennent à votre disposition pour vous fournir une éxperience parfaite. N'hésiter pas à nous contacter si vous avez la moindre question",
   },
   {
     title: 'Sécurité',
